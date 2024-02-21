@@ -1,0 +1,10 @@
+/* selector for all elements */
+
+h1 {
+   color: purple; 
+}
+
+/* css presedent, specifity */
+#header1 {
+    color: blue;
+}
