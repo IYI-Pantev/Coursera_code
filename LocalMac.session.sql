@@ -42,3 +42,39 @@ SELECT customerName FROM customers;
 -- @block
 
 SELECT * FROM customers;
+
+-- creating database restaurant for practise 
+-- database schema from er-d
+
+-- @block
+CREATE DATABASE restaurant;
+
+-- @block 
+USE restaurant;
+
+-- @block
+CREATE TABLE tbl (
+    table_ID INT,
+    location VARCHAR(255),
+    PRIMARY KEY (table_ID)
+);
+-- @block
+ALTER TABLE tbl
+CHANGE COLUMN table_ID table_id INT;
+
+-- @block
+CREATE TABLE waiter( 
+
+    waiter_id INT, 
+
+    name VARCHAR(150), 
+
+    contact_no VARCHAR(10), 
+
+    shift VARCHAR(10), 
+
+    PRIMARY KEY (waiter_id) 
+
+); 
+
+-- @block
