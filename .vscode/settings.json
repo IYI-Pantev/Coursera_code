@@ -1,3 +1,20 @@
 {
-    "livePreview.defaultPreviewPath": "/learn_bootstrap/index.html"
+    "livePreview.defaultPreviewPath": "/learn_bootstrap/index.html",
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "LocalMac",
+            "database": "back_end",
+            "username": "root",
+            "password": "ngledzT1488",
+            "connectionTimeout": 30
+        }
+    ]
 }
